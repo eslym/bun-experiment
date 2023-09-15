@@ -8,7 +8,7 @@
       "type": "bun",
       "request": "launch",
       "name": "Debug File",
-      "program": "./index.tsx",
+      "program": "./index.ts",
       "cwd": "${workspaceFolder}",
       "stopOnEntry": false,
       "watchMode": false,
