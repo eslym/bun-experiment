@@ -31,6 +31,7 @@ function compileRule(rule: string): MatchRule {
             match: rule,
         };
     }
+    regex.lastIndex = 0;
     const patternParts: string[] = [];
     const params = new Set<string>();
     let lastIndex = 0;

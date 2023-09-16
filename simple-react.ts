@@ -37,8 +37,7 @@ function* renderAttributes(props: Record<string, any>, classList: Set<string>) {
                 for (let cls of classes) {
                     classList.add(cls);
                 }
-            }
-            if (value[Symbol.iterator]) {
+            } else if (value[Symbol.iterator]) {
                 for (let cls of value) {
                     classList.add(cls);
                 }
