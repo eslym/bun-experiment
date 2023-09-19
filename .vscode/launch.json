@@ -10,6 +10,7 @@
       "name": "Debug File",
       "program": "./index.ts",
       "cwd": "${workspaceFolder}",
+      "runtimeArgs": ["--hot"],
       "stopOnEntry": false,
       "watchMode": false,
       "internalConsoleOptions": "neverOpen"
